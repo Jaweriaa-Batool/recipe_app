@@ -17,8 +17,6 @@ This app allows users to explore recipes by category, view meal details includin
 - Pull-to-refresh for latest data
 - Responsive and modern UI with shadows, rounded corners, and Google Fonts
 
-> **Note:** YouTube button has been removed to avoid launch issues.
-
 ---
 
 ## 🛠️ Tech Stack
@@ -44,35 +42,18 @@ This app allows users to explore recipes by category, view meal details includin
 
 ---
 
-## 📂 Project Structure
-
-lib/
-│
-├─ models/
-│ └─ meal.dart
-│
-├─ screens/
-│ ├─ home_screen.dart
-│ ├─ category_meals_screen.dart
-│ └─ meal_detail_screen.dart
-│
-├─ services/
-│ └─ api_service.dart
-│
-└─ main.dart
-
 ## Install dependencies
 
 flutter pub get
 
+---
 
 ## Run the app
 
 flutter run
 
+---
+
 ## 🔗 References
 
-TheMealDB API
-Flutter Documentation
-HTTP Package
-Google Fonts Package
+TheMealDB API | Flutter Documentation | HTTP Package | Google Fonts Package
